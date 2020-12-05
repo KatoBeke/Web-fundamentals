@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+    </head>
+
+    <body>
+        
+        <form action="./index.html" method="GET">
+            <!-- Firstname --> 
+            <label for="firstname">
+                Firstname
+            </label>
+            <input type="text" id="firstname" name="firstname"/>
+           
+            <br/>
+            <br/>
+
+            <!-- Lastname --> 
+            <label for="lastname">
+                Lastname
+            </label>
+            <input type="text" id="lastname" name="lastname"/>
+
+            <br/>
+            <br/>
+
+            <!-- Age block -->
+            <label for="age">
+                What is your age?
+            </label>
+            <input type="number" id="age" name="mental_age" />
+
+            <br/>
+            <br/>
+
+            <!-- Date of birth -->
+            <label for="dob">
+                Date of birth
+            </label>
+            <input type="date" name="date_of_birth" id="dob" />
+
+            <br/>
+            <br/>
+
+            <!-- Mail -->
+            <label for="e-mail">
+                E-mail
+            </label>
+            <input 
+                type="email" 
+                id="e-mail" 
+                name="e-mail"
+            />
+
+            <br/>
+            <br/>
+
+            <!-- GSM -->
+            <label for="tel">
+                GSM
+            </label>
+            <input type="tel" id="tel" name="gsm" />
+            <br/>
+            <br/>
+            
+
+            <!-- Gender -->
+            <input type="radio" name="gender" value="male" id="gender_male" checked>
+            <label for="gender_male">
+                Male
+            </label>
+
+            <br/>
+
+            <input type="radio" name="gender" value="female" id="gender_female">
+            <label for="gender_female">
+                Female
+            </label>
+            <br/>
+            <br/>
+            <!-- Comment section -->
+            <label for="comment">
+                Comment
+            </label>
+            <br/>
+            <textarea name="comment" id="comment" rows="10" cols="10"></textarea>
+
+            <br/>
+            <br/>
+
+            <!-- Sends the form to the action, is required -->
+            <input type="submit" value="Send message"/>
+        </form>
+    </body>
+</html>
