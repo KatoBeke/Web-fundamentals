@@ -9,90 +9,87 @@
     <body>
         
         <form action="./index.html" method="GET">
-            <!-- Firstname --> 
+
             <label for="firstname">
                 Firstname
             </label>
-            <input type="text" id="firstname" name="firstname"/>
+            <input type="text" id="firstname"/>
            
             <br/>
             <br/>
 
-            <!-- Lastname --> 
+
             <label for="lastname">
                 Lastname
             </label>
-            <input type="text" id="lastname" name="lastname"/>
+            <input type="text" id="lastname"/>
 
             <br/>
             <br/>
 
-            <!-- Age block -->
+
             <label for="age">
-                What is your age?
+                Age
             </label>
-            <input type="number" id="age" name="mental_age" />
+            <input type="number" id="age"/>
 
             <br/>
             <br/>
 
-            <!-- Date of birth -->
-            <label for="dob">
+
+            <label for="birthday">
                 Date of birth
             </label>
-            <input type="date" name="date_of_birth" id="dob" />
+            <input type="date" id="dob" />
 
             <br/>
             <br/>
 
-            <!-- Mail -->
+
             <label for="e-mail">
                 E-mail
             </label>
             <input 
                 type="email" 
                 id="e-mail" 
-                name="e-mail"
             />
 
             <br/>
             <br/>
 
-            <!-- GSM -->
+
             <label for="tel">
                 GSM
             </label>
-            <input type="tel" id="tel" name="gsm" />
+            <input type="tel" id="gsm"/>
             <br/>
             <br/>
             
 
-            <!-- Gender -->
-            <input type="radio" name="gender" value="male" id="gender_male" checked>
-            <label for="gender_male">
+            <input type="radio" value="male" id="gender_male" checked>
+            <label for="malegender">
                 Male
             </label>
 
             <br/>
 
-            <input type="radio" name="gender" value="female" id="gender_female">
-            <label for="gender_female">
+            <input type="radio" value="female" id="gender_female">
+            <label for="femalegender">
                 Female
             </label>
             <br/>
             <br/>
-            <!-- Comment section -->
+
             <label for="comment">
                 Comment
             </label>
             <br/>
-            <textarea name="comment" id="comment" rows="10" cols="10"></textarea>
+            <textarea name="comment" id="comment" rows="10" cols="20"></textarea>
 
             <br/>
             <br/>
 
-            <!-- Sends the form to the action, is required -->
-            <input type="submit" value="Send message"/>
+            <input type="submit" value="Versturen"/>
         </form>
     </body>
 </html>
